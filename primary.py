@@ -1,5 +1,5 @@
-# author: <name here>
-# date: <date here>
+# author: <Mya Walker>
+# date: <7/8/21>
 
 # -------------------- Section 1 -------------------- #
 
@@ -19,6 +19,15 @@
 # ---- WRITE CODE BELOW ---- #
 
 
+first_name= (input('Please enter your first name: '))
+
+last_name=(input('Now enter your last name: '))
+
+
+print(last_name, first_name)
+
+
+
 #   2. Pyramid
 #       a. Prompt input from the user in the form of a single character. Save to a variable named symbol.
 #       b. Using the symbol, create a pyramid like you see in the example output. (Think, how can you make
@@ -34,6 +43,20 @@
 #   $
 #
 # ---- WRITE CODE BELOW ---- #
+
+print()
+print()
+
+#input('Can you please enter a symbol? :')
+sign =input('Can you please enter a symbol? :')
+print(sign)
+print(sign*2)
+print(sign*3)
+print(sign*2)
+print(sign)
+
+
+
 
 
 #   3. Parallelogram
@@ -53,6 +76,18 @@
 #      @
 #
 # ---- WRITE CODE BELOW ---- #
+
+symbol =input('can i get a symbol new please?: ')
+
+print()
+print(symbol)
+print(symbol*2)
+print(symbol*3)
+print(symbol*4)
+print('',symbol*3)
+print(' ',symbol*2)
+print('  ',symbol)
+print()
 
 
 # -------------------- Section 2 -------------------- #
@@ -76,6 +111,10 @@
 #   num3 (float) | 21322.4
 #
 # ---- WRITE CODE BELOW ---- #
+
+#num1 = input('Enter a new number: ')
+#num2 = int(input('Enter another number: '))
+#num3 = float(input('Enter another new number: '))
 
 
 # Objectives:

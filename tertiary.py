@@ -1,3 +1,4 @@
+
 # The distance from one point to another on a 2 Dimensional Plane is defined by the following equation:
 #
 #   d = sqrt((x2 - x1) ^ 2 + (y2 - y1) ^ 2)
