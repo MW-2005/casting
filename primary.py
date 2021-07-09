@@ -77,7 +77,7 @@ print(sign)
 #
 # ---- WRITE CODE BELOW ---- #
 
-symbol =input('can i get a symbol new please?: ')
+symbol =input('Can I get a new symbol ?: ')
 
 print()
 print(symbol)
@@ -112,10 +112,18 @@ print()
 #
 # ---- WRITE CODE BELOW ---- #
 
-#num1 = input('Enter a new number: ')
-#num2 = int(input('Enter another number: '))
-#num3 = float(input('Enter another new number: '))
+num1 = input('Enter a new number: ')
+num2 = int(input('Enter another number: '))
+num3 = float(input('Enter another new number: '))
 
+print()
+
+x= num1*10
+print(x)
+x= num2*10
+print(x)
+x= num3*10
+print(x)
 
 # Objectives:
 #   2. Diameter of a Circle
@@ -130,6 +138,14 @@ print()
 #   diameter = 24.6
 #
 # ---- WRITE CODE BELOW ---- #
+
+print()
+
+
+num = float(input('enter a radius: '))
+x=num *2
+print(x)
+
 
 
 # Objectives:
@@ -150,6 +166,14 @@ print()
 #   area of the circle: 6134.4296
 #
 # ---- WRITE CODE BELOW ---- #
+
+print()
+
+rad= float(input('enter a new radius: '))
+def area_circle():
+    area = 3.14*rad**2
+    print(area)
+area_circle()
 
 
 # -------------------- Section 4 -------------------- #
