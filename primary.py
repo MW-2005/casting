@@ -46,8 +46,8 @@ print(last_name, first_name)
 
 print()
 print()
+print()
 
-#input('Can you please enter a symbol? :')
 sign =input('Can you please enter a symbol? :')
 print(sign)
 print(sign*2)
@@ -55,7 +55,9 @@ print(sign*3)
 print(sign*2)
 print(sign)
 
-
+print()
+print()
+print()
 
 
 
@@ -77,7 +79,7 @@ print(sign)
 #
 # ---- WRITE CODE BELOW ---- #
 
-symbol =input('Can I get a new symbol ?: ')
+symbol =input('Can I get a new symbol? :')
 
 print()
 print(symbol)
@@ -88,7 +90,8 @@ print('',symbol*3)
 print(' ',symbol*2)
 print('  ',symbol)
 print()
-
+print()
+print()
 
 # -------------------- Section 2 -------------------- #
 
@@ -112,18 +115,29 @@ print()
 #
 # ---- WRITE CODE BELOW ---- #
 
-num1 = input('Enter a new number: ')
-num2 = int(input('Enter another number: '))
-num3 = float(input('Enter another new number: '))
+num1 = input('Enter a whole number: ')
+num2 = int(input('Enter another whole number: '))
+num3 = float(input('Enter another new number it can be a decemal: '))
+
 
 print()
 
 x= num1*10
 print(x)
+print('This is the number as a String multiplied by ten.')
+
+print()
+
 x= num2*10
 print(x)
+print('This is the number as a Integer multiplied by ten.')
+
+print()
+
 x= num3*10
 print(x)
+print('This is the number as a Float multiplied by ten.')
+
 
 # Objectives:
 #   2. Diameter of a Circle
@@ -140,11 +154,14 @@ print(x)
 # ---- WRITE CODE BELOW ---- #
 
 print()
+print()
+print()
 
 
 num = float(input('enter a radius: '))
 x=num *2
 print(x)
+print('The new number is the old number turned into a diameter.')
 
 
 
@@ -174,9 +191,27 @@ def area_circle():
     area = 3.14*rad**2
     print(area)
 area_circle()
-
+print('This is the area of a circle based on the radius you just entered.')
 
 # -------------------- Section 4 -------------------- #
 #
 # Create a conversation with a faux (fake) AI, using input and print().
 # See the example in example.py
+
+print()
+
+
+name = input('What\'s your name? ')
+print('Hello! ' + name + ', my name is L.T. short for LapTop!')
+
+print('Nice to meet you.')
+
+print()
+
+hobbie = input('What do you like to do on your free time ' + name + '? ')
+print()
+print('That\'s so cool ' + name + '. I never really had the chance to ' + hobbie + ' much before. But I do like to watch My Hero Academia, and Haikyuu.')
+print()
+
+print('Well its been real... But I but I have to go.'
+'See you.')

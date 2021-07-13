@@ -1,5 +1,5 @@
-# author: <name here>
-# date: <date here>
+# author: <Mya>
+# date: <7/12/21>
 
 # -------------------- Section 4 -------------------- #
 
@@ -36,6 +36,20 @@
 #           $
 #
 # ---- WRITE CODE BELOW ---- #
+
+print('           ^')
+print('          ^^^')
+print('         ^^^^^')
+print('        ^^^^^^^')
+print('       ^^^^^^^^^')
+print('      ^^^^^^^^^^^')
+print('     ^^^^^^^^^^^^^')
+print('      ^^^^^^^^^^^')
+print('       ^^^^^^^^^')
+print('        ^^^^^^^')
+print('         ^^^^^')
+print('          ^^^')
+print('           ^')
 
 
 #   2. Framed Diamond
